@@ -7,14 +7,17 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="Astro description" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta charset="UTF-8" />
+<meta name="description" content="Estrelas do amanhã, formulario desenvoldido por Emmanuel Oliveira" />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
+<title>{title}</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<slot />
@@ -22,18 +25,26 @@ const { title } = Astro.props;
 </html>
 <style is:global>
 	:root {
-		--accent: 136, 58, 234;
-		--accent-light: 224, 204, 250;
-		--accent-dark: 49, 10, 101;
-		--accent-gradient: linear-gradient(
-			45deg,
-			rgb(var(--accent)),
-			rgb(var(--accent-light)) 30%,
-			white 60%
-		);
+		// Fonts
+		--font-family: "Poppins", sans-serif;
+		--text: 400 1rem/1.5 var(--font-family);
+		--text-sm: 400 0.875rem/1.4 var(--font-family);
+		// Brand Colors
+		--text-primary: #292524;
+		--text-secondary: #57534e;
+		--text-tertiary: #8f8881 ;
+		--text-highlight: #e43a12;
+		//Surface Colors
+		--surface-primary: #fff ;
+		--surface-secondary: #fee7d6;
+		--surface-disabeld: #E7E5E4;
+		//Stroke Colors
+		--stroke-default: #d6d3d1;
+		--stroke-highlight:#f3541c;
+		--semantic-error: #dc2626; 
 	}
 	html {
-		font-family: system-ui, sans-serif;
+		font-family: "Poppins", sans-serif;
 		background: #13151a;
 	}
 	code {
