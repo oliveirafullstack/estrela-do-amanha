@@ -2,7 +2,6 @@
 interface Props {
 	title: string;
 }
-
 const { title } = Astro.props;
 ---
 
@@ -45,17 +44,13 @@ const { title } = Astro.props;
 	}
 	html {
 		font-family: "Poppins", sans-serif;
-		background: #13151a;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
+	body {
+		overflow: hidden;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
 	}
 </style>
