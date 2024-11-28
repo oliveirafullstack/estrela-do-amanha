@@ -1,5 +1,7 @@
 ---
+import { Image } from "astro:assets";
 import Paragraph from "./Paragraph.astro";
+import Pana from "../assets/pana.svg";
 ---
 
 <header>
@@ -9,7 +11,7 @@ import Paragraph from "./Paragraph.astro";
     desc="Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante."
   />
   <div>
-    <img src="/icons/pana.svg" alt="teste" />
+    <Image src={Pana} alt="Professora mostrando tema da aula par alunos" />
   </div>
 </header>
 <style>
