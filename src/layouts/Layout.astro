@@ -39,6 +39,7 @@ const { title } = Astro.props;
     --color-stroke-default: #d6d3d1;
     --color-stroke-Highlight: #f3541c;
     --color-semantic-error: #dc2626;
+    --color-surface-disabled: #e7e5e4;
     --text-default: "Poppins", sans-serif;
     --text: 400 1rem/1.5 "Poppins", sans-serif;
     --text-md: 600 1rem/1.25 "Poppins", sans-serif;
@@ -64,5 +65,23 @@ const { title } = Astro.props;
   img {
     max-width: 100%;
     display: block;
+  }
+  fieldset {
+    border: none;
+    display: grid;
+    gap: 1.5rem;
+  }
+  legend {
+    font: var(--text-md);
+    margin-bottom: 1.5rem;
+  }
+  .flex {
+    display: flex;
+  }
+  .flex-1 {
+    flex: 1;
+  }
+  .flex-2 {
+    flex: 2;
   }
 </style>
