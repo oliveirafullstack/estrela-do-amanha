@@ -1,49 +1,30 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Apresentation from "../components/Apresentation.astro";
 ---
 
-<Layout title="Welcome to Astro.">
-  <div id="app">
-    <main>
-      <div class="main-container">
-        m dolorem incidunt. Sint, eum, delectus optio porro temporibus ab,
-        tempore maiores dolorem consequatur soluta omnis cupiditate iusto ipsum
-        recusandae dolore iure reiciendis maxime sunt inventore reprehenderit
-        autem illo qui. Ut delectus temporibus nulla, corporis saepe, sunt
-        numquam cupiditate excepturi at odio a minus, dolores esse expedita
-        obcaecati. Odio quis dolor excepturi debitis veritatis unde in et autem
-        sequi quia. Et autem cum eius. Nostrum cupiditate quibusdam quasi labore
-        rem aliquid sequi reiciendis placeat aut. Quia rem alias quo corrupti
-        ipsa obcaecati. Delectus laborum inventore voluptate, doloribus
-        architecto voluptatibus praesentium. Repellendus quibusdam, doloremque
-        non nemo, tenetur dolor magni, in necessitatibus nam sapiente est?
-        Laboriosam quisquam animi odio inventore libero. Architecto ducimus
-        minus dolorem amet error nostrum. Neque quas culpa dolores. Consequatur,
-        amet. Illum doloremque tenetur alias, officia tempora ipsum, accusantium
-        harum qui, quisquam odio beatae ducimus voluptatibus nesciunt minus
-        sapiente velit reprehenderit esse dolore? Minus ipsam iste officia nihil
-        consectetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        Eaque aliquid animi eveniet sit blanditiis, repudiandae ex reiciendis
-        vitae ratione illo laudantium velit enim dolores veniam quae facere
-        corrupti adipisci
-      </div>
-    </main>
-    <asside>
-      <div class="aside-container">
-        ad, rerum commodi mollitia qui perspiciatis dicta eos illo praesentium
-        expedita? Totam provident ullam, asperiores harum earum neque!
-      </div>
-    </asside>
-  </div>
-</Layout>
+<Layout title="Estrela do amanhã" />
+<div id="app">
+  <main>
+    <div class="main-container">
+      <Header />
+    </div>
+  </main>
+  <aside>
+    <div class="aside-container">
+      <Apresentation />
+    </div>
+  </aside>
+</div>
 
 <style>
   #app {
     display: grid;
     grid-template-columns: 51.25% 48.75%;
     height: 100vh;
-    main {
-      overflow: hidden;
+    overflow: hidden;
+    & main {
       overflow: auto;
       padding: 4rem;
       & .main-container {
@@ -51,8 +32,8 @@ import Layout from "../layouts/Layout.astro";
         margin-left: auto;
       }
     }
-    asside {
-      background-color: var(--surface-secondary);
+    & aside {
+      background-color: var(--color-surfcace-secondary);
       padding: 4rem;
       & .aside-container {
         max-width: 31rem;

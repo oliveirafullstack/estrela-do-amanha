@@ -1,56 +1,67 @@
 ---
 interface Props {
-	title: string;
+  title: string;
 }
 const { title } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="pt-BR">
-	<head>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<meta charset="UTF-8" />
-<meta name="description" content="Estrelas do amanhã, formulario desenvoldido por Emmanuel Oliveira" />
-<meta name="viewport" content="width=device-width" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-<meta name="generator" content={Astro.generator} />
-<title>{title}</title>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	</head>
-	<body>
-		<slot />
-	</body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Estrelas do amanhã, formulario desenvoldido por Emmanuel Oliveira"
+    />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/icons/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 <style is:global>
-	:root {
-		// Fonts
-		--font-family: "Poppins", sans-serif;
-		--text: 400 1rem/1.5 var(--font-family);
-		--text-sm: 400 0.875rem/1.4 var(--font-family);
-		// Brand Colors
-		--text-primary: #292524;
-		--text-secondary: #57534e;
-		--text-tertiary: #8f8881 ;
-		--text-highlight: #e43a12;
-		//Surface Colors
-		--surface-primary: #fff ;
-		--surface-secondary: #fee7d6;
-		--surface-disabeld: #E7E5E4;
-		//Stroke Colors
-		--stroke-default: #d6d3d1;
-		--stroke-highlight:#f3541c;
-		--semantic-error: #dc2626; 
-	}
-	html {
-		font-family: "Poppins", sans-serif;
-	}
-	body {
-		overflow: hidden;
-	}
-	* {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
+  :root {
+    color-scheme: only light;
+    --color-text-primary: #292524;
+    --color-text-secondary: #57534e;
+    --color-text-tertiary: #8e8881;
+    --color-surface-primary: #fff;
+    --color-surfcace-secondary: #fee7d6;
+    --color-stroke-default: #d6d3d1;
+    --color-stroke-Highlight: #f3541c;
+    --color-semantic-error: #dc2626;
+    --text-default: "Poppins", sans-serif;
+    --text: 400 1rem/1.5 "Poppins", sans-serif;
+    --text-sm: 400 0.875rem/1.4 "Poppins", sans-serif;
+    --text-semi: 600 1.5rem/1.25 "Poppins", sans-serif;
+    --text-h2: 600 2.5rem/1.25 "Poppins", sans-serif;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    overflow: hidden;
+    font-family: var(--text-default);
+    color: var(--color-text-secondary);
+    background-color: light-dark(white, black);
+  }
+  h1,
+  h2 {
+    color: var(--color-text-primary);
+  }
+  img {
+    max-width: 100%;
+    display: block;
+  }
 </style>
