@@ -1,0 +1,58 @@
+---
+import "./Fields.css";
+import "./Droparea.css";
+---
+
+<fieldset class="address">
+  <legend>Endereço Residencial</legend>
+  <div class="input-wrapper">
+    <label for="cep" id="cep">CEP</label>
+    <input type="text" name="cep" id="cep" value="01234-567" />
+  </div>
+  <div class="flex">
+    <div class="input-wrapper flex-2">
+      <label for="street" id="street">Rua</label>
+      <input
+        type="text"
+        name="street"
+        id="street"
+        value="Rua das flores"
+        disabled
+      />
+    </div>
+    <div class="input-wrapper flex-1">
+      <label for="number" id="numbrer">Número</label>
+      <input type="number" name="number" id="number" value="123" />
+    </div>
+  </div>
+  <div class="flex">
+    <div class="input-wrapper flex-2">
+      <label for="city" id="city">Cidade</label>
+      <input type="text" name="city" id="city" />
+    </div>
+    <div class="input-wrapper flex-1">
+      <label for="state" id="numbrer">Estado</label>
+      <input type="text" name="state" id="state" disabled value="SP" />
+    </div>
+  </div>
+</fieldset>
+
+<style>
+  .address {
+    margin-top: 3rem;
+    border: none;
+    & .flex {
+      gap: 1.25rem;
+    }
+    .input-wrapper:has([disabled]) {
+      opacity: 0.5;
+    }
+    input {
+      &[disabled] {
+        background-color: var(--color-surface-disabled);
+        border: 1px solid var(--color-stroke-default);
+        color: var(--color-text-primary);
+      }
+    }
+  }
+</style>

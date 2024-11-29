@@ -1,0 +1,41 @@
+---
+
+---
+
+<div class="action-wrapper">
+  <button class="btn-secondary" type="button">Salvar Respostas</button>
+  <button type="submit" class="btn-primary">Fazer Matricula</button>
+</div>
+
+<style>
+  .action-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+  }
+  button {
+    all: unset;
+    font-weight: 500;
+    color: var(--color-stroke-Highlight);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    &.btn-primary {
+      color: whitesmoke;
+      background-color: var(--color-brand-dark);
+      &:hover,
+      &:focus {
+        background-color: var(--color-brand-mid);
+      }
+    }
+    &.btn-secondary {
+      margin-left: auto;
+      border: 1px solid var(--color-stroke-Highlight);
+      &:hover,
+      &:focus {
+        color: var(--color-brand-dark);
+        outline: 0.25rem solid var(--color-surfcace-secondary);
+      }
+    }
+  }
+</style>

@@ -1,0 +1,30 @@
+---
+import Paragraph from "./Paragraph.astro";
+---
+
+<header>
+  <div class="back">
+    <img src="/icons/arrow-left-02.svg" alt="icone voltar" />
+    <span>Voltar</span>
+  </div>
+  <h1>Formulário de matricula</h1>
+  <Paragraph
+    desc="Preencha os dados abaixo para matricular seu filho na escola de educaçãoinfantil Estrelas do Amanhã."
+  />
+</header>
+
+<style>
+  header {
+    & .back {
+      display: flex;
+      gap: 0.5rem;
+      margin-bottom: 1.5rem;
+    }
+    & h1 {
+      font: var(--text-semi);
+      margin-bottom: 0.5rem;
+    }
+    p {
+    }
+  }
+</style>

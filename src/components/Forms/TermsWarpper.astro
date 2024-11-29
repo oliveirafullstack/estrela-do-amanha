@@ -1,0 +1,50 @@
+---
+
+---
+
+<div class="terms-wrapper input-wrapper checkbox-wrapper">
+  <div class="checkbox-image"></div>
+  <input class="chek" type="checkbox" name="terms" id="terms" />
+  <label for="terms">
+    Declaro que li e concordo com os <strong>Termos e Condições</strong> e com a
+    <strong>Política de Privacidade</strong> da escola Estrela do Amanhã.
+  </label>
+</div>
+
+<style>
+  .terms-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    & strong {
+      font-weight: 500;
+      color: var(--color-stroke-Highlight);
+    }
+  }
+  .checkbox-wrapper {
+    position: relative;
+    & [type="checkbox"] {
+      all: unset;
+      position: absolute;
+      inset: 0;
+    }
+
+    .checkbox-image {
+      flex: 0 0 1.5rem;
+      height: 1.5rem;
+      background-image: url(/icons/checked.svg);
+      background-repeat: no-repeat;
+    }
+
+    &:hover,
+    &:focus-within {
+      .checkbox-image {
+        background-image: url(/icons/checked-hover.svg);
+      }
+    }
+    &:has(:checked) .checkbox-image {
+      background-image: url(/icons/checked-check.svg);
+    }
+  }
+</style>

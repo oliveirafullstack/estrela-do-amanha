@@ -1,0 +1,32 @@
+---
+import { Image } from "astro:assets";
+import Paragraph from "./Paragraph.astro";
+import Pana from "../assets/pana.svg";
+---
+
+<header>
+  <img src="/icons/logo.svg" alt="" />
+  <h2>Porque cada momento de <span>aprendizado</span> conta</h2>
+  <Paragraph
+    desc="Inscreva seu filho em nossa escola e veja-o florescer em um ambiente acolhedor, seguro e estimulante."
+  />
+  <div>
+    <Image src={Pana} alt="Professora mostrando tema da aula par alunos" />
+  </div>
+</header>
+<style>
+  header {
+    & h2 {
+      font: var(--text-h2);
+      margin-bottom: 0.5rem;
+      & span {
+        color: var(--color-stroke-Highlight);
+      }
+    }
+    & div > img {
+      margin-top: 2rem;
+      max-width: 100%;
+      display: block;
+    }
+  }
+</style>
