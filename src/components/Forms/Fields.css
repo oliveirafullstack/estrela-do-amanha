@@ -10,8 +10,8 @@ select {
 }
 
 label {
-  font: var(--text-sm);
   color: var(--color-text-secondary);
+  font: var(--text-sm);
   display: block;
   margin-bottom: 0.25rem;
 }
@@ -30,8 +30,8 @@ input[type="date"] {
     opacity: 0;
   }
   &::before {
-    content: "";
     position: absolute;
+    content: "";
     background: url(/icons/calendar-03.svg) no-repeat;
     background-size: contain;
     right: 1rem;
