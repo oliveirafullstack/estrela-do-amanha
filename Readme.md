@@ -3,10 +3,10 @@
 <br>
 <br>
 <!-- Titulo do Projeto -->
-<div align="center" >
-<img alt="Astro" width="24" height="35" src="./public/astro_dark.svg"><br>
+<div align="center">
+<img alt="Astro" width="24" height="35" src="./public/astro_dark.svg"/></br>
 
-![Static Badge](https://img.shields.io/badge/--path?style=flat&logo=astro&logoColor=%23FFF&logoSize=auto&label=Astro&color=e35607)
+![Static Badge](https://img.shields.io/badge/--path?style=flat&logo=astro&logoColor=%23FFF&logoSize=auto&label=Astro&color=e35607)<br>
 <small>Framework de desenvolvimento</small>
 
 <!-- Badges do Projeto -->
@@ -14,7 +14,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/oliveirafullstack/estrela-do-amanha?style=plastic&labelColor=%23000)
 ![GitHub language count](https://img.shields.io/github/languages/count/oliveirafullstack/estrela-do-amanha?style=flat&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
 ![GitHub repo size](https://img.shields.io/github/repo-size/oliveirafullstack/estrela-do-amanha?style=plastic&logo=github&logoColor=%23fff&logoSize=auto&labelColor=%23000)
-![GitHub forks](https://img.shields.io/github/forks/oliveirafullstack/estrela-do-amanha?style=plastic&labelColor=%23000)=
+![GitHub forks](https://img.shields.io/github/forks/oliveirafullstack/estrela-do-amanha?style=plastic&labelColor=%23000)
 
 </div>
 
