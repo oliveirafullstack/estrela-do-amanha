@@ -25,7 +25,7 @@
 
 <!-- Menu -->
 
-> [!FAQ]
+> [!TIP]
 > Table of Contents
 
 - [Project description](#project-description)
