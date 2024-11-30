@@ -25,22 +25,22 @@
 
 <!-- Menu -->
 
-> [!TIP]
+> [!FAQ]
 > Table of Contents
-
-- [Project description](#project-description)
-  - [Functionalities](#functionalities)
-- [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [technologies and tools](#technologies-and-tools)
-- [Instalation](#instalation)
-- [Usage](#usage)
-- [Update](#update)
-- [References](#references)
-- [Contributors or owners](#contributors-or-owners)
-  - [Contribute-to-the-projects](#contribute-to-the-projects)
-- [Contact](#contact)
-- [License](#license)
+>
+> - [Project description](#project-description)
+>   - [Functionalities](#functionalities)
+> - [Setup](#setup)
+>   - [Prerequisites](#prerequisites)
+>   - [technologies and tools](#technologies-and-tools)
+> - [Instalation](#instalation)
+> - [Usage](#usage)
+> - [Update](#update)
+> - [References](#references)
+> - [Contributors or owners](#contributors-or-owners)
+>   - [Contribute-to-the-projects](#contribute-to-the-projects)
+> - [Contact](#contact)
+> - [License](#license)
 
 <!-- Descriçào do Projeto -->
 
