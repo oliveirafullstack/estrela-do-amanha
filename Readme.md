@@ -1,5 +1,5 @@
 <!-- Banner de Apresentação -->
- <img src="./public/OFS.png" alt="Banner OFS">
+ <img src="./public/banner.png" alt="Banner OFS">
 <br>
 <br>
 
@@ -46,7 +46,7 @@
 
 ## Project Description
 
-**Estrela dp amanhã** é um formulário de inscrição onde são feitas as incrições das crianças na Escola `Estrela do Amnhã`.<br>
+**Estrela do amanhã** é um formulário de inscrição onde são feitas as incrições das crianças da Escola `Estrela do Amnhã`.<br>
 Projeto foi desenvolvido para a pratíca de tecnologias, como `Astro`,`HTML`,`CSS`.<br>
 Minha fonte de motivação deste projeto foi a [RocketSeat](https://www.rocketseat.com.br/).<br>
 
@@ -57,7 +57,7 @@ Minha fonte de motivação deste projeto foi a [RocketSeat](https://www.rocketse
 `Charlenge`
 
 Os Maiores desafios foram:<br>
-trabalhar com `input's` aplicando os estilos, para tornar uma página agradavbel.
+trabalhar com `input's` aplicando os estilos, para tornar uma página agradável.
 
 ### Functionalities
 
@@ -85,7 +85,7 @@ Requisitos necessários para rodar o projeto:<br>
 
 > [!IMPORTANT]
 >
-> - Run Time [Node.js](https://nodejs.org/en/) com a versão _16 ou superior_.<br>
+> - Run Time [Node.js](https://nodejs.org/en/) com a versão _20 ou superior_.<br>
 > - Um editor de códigos onde eu recomendo o [VCode](https://code.visualstudio.com/)<br>
 > - E o [git](https://git-scm.com/downloads) uma aplicação de versionamento de código.
 
@@ -199,7 +199,7 @@ Acesse a versão on-line Projeto clicando no Link Abaixo
 <img height="64px" src="./public/profile.png"><br>
 <small>Emmanuel Oliveira</small>
 
-Creation of styles and project development by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
+developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
 &copy; Todos os Direitos Reservados
 
 ### Contribute to the projects
@@ -258,6 +258,5 @@ Isso criará uma cópia local do projeto, onde você poderá fazer suas modifica
 ![Static Badge](https://img.shields.io/badge/--path?style=plastic&logo=mit&logoSize=auto&label=license%20MIT&labelColor=%23555555&color=%2397CA00)<br>
 Released in 2024 This project is under the **MIT license**<br>
 <br>
-<br>
 
-[`voltar ao topo`](#contact-list)
+[`voltar ao topo`](#estrela-do-amanhã)
