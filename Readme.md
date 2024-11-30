@@ -22,7 +22,7 @@
 
 <!-- Menu -->
 
-> [!TIP]
+> [!NOTE]
 > Table of Contents
 
 - [Project description](#project-description)
