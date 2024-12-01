@@ -2,6 +2,7 @@
  <img src="./public/banner.png" alt="Banner OFS">
 <br>
 <br>
+
 <!-- Titulo do Projeto -->
 <div align="center">
 <img alt="Astro" width="24" height="35" src="./public/astro_dark.svg"/></br>
@@ -43,13 +44,13 @@
 
 ## Project Description
 
-**Estrela do amanhã** é um formulário de inscrição onde são feitas as incrições das crianças da Escola `Estrela do Amnhã`.<br>
+**Estrela do amanhã**é uma landing-page de formulário para inscrição, onde são feitas as incrições das crianças da matricula na Escola `Estrela do Amnhã`.<br>
 Projeto foi desenvolvido para a pratíca de tecnologias, como `Astro`,`HTML`,`CSS`.<br>
 Minha fonte de motivação deste projeto foi a [RocketSeat](https://www.rocketseat.com.br/).<br>
 
 `Task`
 
-- Desenvolver um Formulário para Inscrições
+- Desenvolver um Formulário para Inscrições.
 
 `Charlenge`
 
@@ -69,24 +70,6 @@ trabalhar com `input's` aplicando os estilos, para tornar uma página agradável
 ## Setup
 
 Requisitos necessários para rodar o projeto:<br>
-
-<!-- ### Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin). -->
-
-### Prerequisites
-
->
-
-`Node.js` `VSCode` `Git`
-
-> [!IMPORTANT]
->
-> - Run Time [Node.js](https://nodejs.org/en/) com a versão _20 ou superior_.<br>
-> - Um editor de códigos onde eu recomendo o [VCode](https://code.visualstudio.com/)<br>
-> - E o [git](https://git-scm.com/downloads) uma aplicação de versionamento de código.
-
-<!-- > - Extensão do VSCode [**Live Server**](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) -->
 
 ### technologies and tools
 
