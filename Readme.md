@@ -44,7 +44,7 @@
 
 ## Project Description
 
-**Estrela do amanhã**é uma landing-page de formulário para inscrição, onde são feitas as incrições das crianças da matricula na Escola `Estrela do Amnhã`.<br>
+**Estrela do amanhã** é uma landing-page de formulário para inscrição, onde são feitas as incrições das crianças da matricula na Escola `Estrela do Amnhã`.<br>
 Projeto foi desenvolvido para a pratíca de tecnologias, como `Astro`,`HTML`,`CSS`.<br>
 Minha fonte de motivação deste projeto foi a [RocketSeat](https://www.rocketseat.com.br/).<br>
 
