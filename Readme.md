@@ -184,7 +184,7 @@ developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepag
 
 ### Contribute to the projects
 
-<details>
+<details open>
 <summary>Como fazer uma contribuição ao Projeto ?</summary>
  
  - Familiarize-se com a documentação do projeto, que geralmente inclui guias de instalação.<br>
