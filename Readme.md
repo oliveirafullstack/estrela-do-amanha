@@ -1,11 +1,11 @@
 <!-- Banner de Apresentação -->
- <img src="./public/banner.png" alt="Banner OFS">
+ <img src="./public/assets/banner.png" alt="Banner OFS">
 <br>
 <br>
 
 <!-- Titulo do Projeto -->
 <div align="center">
-<img alt="Astro" width="24" height="35" src="./public/astro_dark.svg"/></br>
+<img alt="Astro" width="24" height="35" src="./public/assets/astro_dark.svg"/></br>
 
 ![Static Badge](https://img.shields.io/badge/--path?style=flat&logo=astro&logoColor=%23FFF&logoSize=auto&label=Astro&color=e35607)<br>
 <small>Framework de desenvolvimento</small>
@@ -144,8 +144,8 @@ pnpm dev
 </br>
 </br>
 
-<img src="./public/image-1.png" alt="Print do Projeto"/>
-<img src="./public/iamge-2.png" alt="Print do Projeto"/>
+<img src="./public/assets/image-1.png" alt="Print do Projeto"/>
+<img src="./public/assets/iamge-2.png" alt="Print do Projeto"/>
 
 <!-- <h3 align="center">📽️project demonstration video</h3>
 <br>
@@ -176,7 +176,7 @@ Acesse a versão on-line Projeto clicando no Link Abaixo
 
 ## Contributors or owners
 
-<img height="64px" src="./public/profile.png"><br>
+<img height="64px" src="./public/assets/profile.png"><br>
 <small>Emmanuel Oliveira</small>
 
 developed by 💖 [Emmanuel Oliveira](https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit)<br>
